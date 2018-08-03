@@ -29,6 +29,15 @@ App
   to { transform: rotate(360deg); }
 }
 
+.logo-github {
+  display: center;
+  text-indent: -9999px;
+  width: 100px;
+  height: 200px;
+  background: url(./SVG/github.svg);
+  background-size: 10px 82px;
+}
+
 .logo-linkedin, 
 .logo-mail {
   height: 80px;

@@ -19,14 +19,15 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <a href="https://www.linkedin.com/in/german-ariel-gomez-781040152/" target ="_blank">
+          <a href="https://www.linkedin.com/in/german-ariel-gomez-781040152/" target ="_blank" 
+          rel = "noopener noreferrer">
             <img className= "logo-linkedin" alt="linkedin" src= {linkedin}  />
           </a>
             {/* Averiguar como hacer para hacer una pagina mas 
             con onroutechange y hacer componente de contacto */}
           <img className= "logo-mail" alt= "mail" src={mail}/>
-          
-          
+          {/* <a href = "https://github.com/gg-ballin" className = "logo"> </a> */}
+          <img classname= "logo-github" alt ="github" src= {github} />
           <h1 className = "name">
           <Fade bottom cascade>  
             Germán Gómez
@@ -49,10 +50,10 @@ class App extends Component {
           </div>
           
         <footer className = "App-footer"> 
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <a href = "https://github.com/gg-ballin"> 
-             <img classname= "logo-github" alt ="github" src= {github} /> 
-             </a>
+          <img src={logo} className="App-logo" alt="logo" />
+          
+             {/* <img classname= "logo-github" alt ="github" src= {github} />  */}
+             
           <p className = "OS"> 
           <Fade right big cascade>
           Open Source enthusiast.
