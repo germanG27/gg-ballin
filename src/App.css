@@ -29,17 +29,18 @@ App
   to { transform: rotate(360deg); }
 }
 
-.logo-github {
+/* .logo-github {
   display: center;
   text-indent: -9999px;
   width: 100px;
   height: 200px;
   background: url(./SVG/github.svg);
   background-size: 10px 82px;
-}
+} */
 
 .logo-linkedin, 
-.logo-mail {
+.logo-mail,
+.logo-github {
   height: 80px;
   width: 60px;
   display: inline-block;
@@ -53,7 +54,7 @@ App
   
 }
 
-.logo-github {
+/* .logo-github {
   height: 80px;
   width: 60px;
   display: inline-block;
@@ -63,14 +64,17 @@ App
   box-shadow: 0 0 1px rgba(255, 255, 255, 0);
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
-}
+} */
 
 .logo-linkedin:hover,
 .logo-linkedin:focus,
 .logo-linkedin:active,
 .logo-mail:hover,
 .logo-mail:focus,
-.logo-mail:active
+.logo-mail:active,
+.logo-github:hover,
+.logo-github:focus,
+.logo-github:active
  {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
