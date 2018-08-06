@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -29,18 +31,11 @@ App
   to { transform: rotate(360deg); }
 }
 
-/* .logo-github {
-  display: center;
-  text-indent: -9999px;
-  width: 100px;
-  height: 200px;
-  background: url(./SVG/github.svg);
-  background-size: 10px 82px;
-} */
+
 
 .logo-linkedin, 
-.logo-mail,
-.logo-github {
+.logo-mail
+ {
   height: 80px;
   width: 60px;
   display: inline-block;
@@ -54,27 +49,13 @@ App
   
 }
 
-/* .logo-github {
-  height: 80px;
-  width: 60px;
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(255, 255, 255, 0);
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-} */
 
 .logo-linkedin:hover,
 .logo-linkedin:focus,
 .logo-linkedin:active,
 .logo-mail:hover,
 .logo-mail:focus,
-.logo-mail:active,
-.logo-github:hover,
-.logo-github:focus,
-.logo-github:active
+.logo-mail:active
  {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
@@ -82,14 +63,6 @@ App
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
-.logo-github:hover,
-.logo-github:focus,
-.logo-github:active {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-}
 
 .name {
   font-family: 'League Spartan';
@@ -117,3 +90,4 @@ App
   color: azure;
      font-weight: bold;
 }
+
