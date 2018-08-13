@@ -18,6 +18,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "react-reveal": "^1.2.2"
+    "react-reveal": "^1.2.2",
+    "react-router": "^4.3.1"
   }
 }

@@ -7,7 +7,10 @@ const Example = (props) => {
       <Jumbotron fluid>
         <Container fluid>
           <h1 className="display-3">Quien soy</h1>
-          <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <p className="lead">
+          Me encuentro estudiando las nuevas tecnologías web para impulsar mi conocimiento de estas como para poder
+          seguir con mi carrera como programador.
+          </p>
         </Container>
       </Jumbotron>
     </div>
